@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-tools-chain"
+version = "0.1.0"
+description = ""
+authors = ["Eldar Gazizov <kursus1010@gmail.com>>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+pillow = "^10.3.0"
+pillow-heif = "^0.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
